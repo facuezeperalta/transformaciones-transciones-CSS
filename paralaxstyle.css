@@ -53,7 +53,7 @@ html{
     height: 100px;
     width: 80px;
     position: absolute;
-    border-radius: 5px;
+    border-radius: 8px;
     transform: rotate(-20px);
 }
 
@@ -67,7 +67,7 @@ html{
 }
 
 .three{
-    right: 300px;
+    right: 550px;
     bottom: -50px
 }
 
