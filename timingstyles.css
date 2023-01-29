@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container:hover .circle{
+    transform: translateX(300px);
+}
+
+.circle {
+    margin:20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.one{
+    background: lightblue;
+    transition: transform 0.5s linear;
+
+}
+
+.two{
+    background: lightcoral;
+    transition: transform 0.5s ease;
+    transition-delay: 50ms;
+}
+
+.three{
+    background: lightgray;
+    transition: transform 1s ease-in;
+    transition-delay: 100ms;
+}
+
+.four{
+    background: lightgreen;
+    transition: transform 1.5s ease-in-out;
+    transition-delay: 150ms;
+}
+
+.five{
+    background: lightpink;
+    transition: transform 2s ease-out;
+    transition-delay: 200ms;
+}
+
+.six{
+    background: lightsalmon;
+    transition: transform 2.5s linear;
+    transition-delay: 250ms;
+}

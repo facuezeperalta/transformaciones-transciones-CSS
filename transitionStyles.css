@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    background: papayawhip;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.container:hover .box{
+    transform: scale(1.1);
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+}
+
+.box-1{
+    background: lightblue;
+    transition: transform 500ms;
+}
+
+.box-2{
+    background: lightcoral;
+    transition: transform 1000ms;
+}
+
+.box-3{
+    background: lightseagreen;
+    transition: transform 1500ms;
+
+}
+
+.circle-1{
+    margin: 30px;
+    background: lightgreen;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    transform-origin: top right;
+    transition: transform 1s;
+}
+
+.circle-1:hover{
+    transform: rotate(130deg);
+}
+
+.circle-2{
+    border-radius: 100px;
+    margin: 50px;
+    background: lightsteelblue;
+    width: 150px;
+    height: 150px;
+    transition: transform 150ms;
+}
+
+.circle-2:hover{
+    transform: skew(15deg);
+}
