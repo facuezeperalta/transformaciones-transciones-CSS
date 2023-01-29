@@ -1,0 +1,48 @@
+*{
+    
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+ul{
+    list-style: none;
+    font-size: 2.3rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    margin: 20px;
+    
+}
+.nav li ul{
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    transition: visibility 0.5s ease-in-out;
+    transition-delay: 0.5s ease-in-out;
+}
+
+.nav li:hover > ul{
+    visibility: visible;
+    transition: visibility 0.5s ease-in-out;
+    transition-delay: 0.5s ease-in-out;
+}
+
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li{
+    right: -200px;
+}
+
+
+
