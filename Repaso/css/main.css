@@ -16,6 +16,7 @@ html {
   background-color: #4158D0;
   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   border-radius: 50%;
+  margin-bottom: 20px;
 }
 .circle:hover {
   transform: translateX(20px); /* si le saco la coordenada es valor por defecto es X */
@@ -24,6 +25,70 @@ html {
 .shadow {
   width: 100px;
   height: 100px;
-  background-color: lightslategray;
+  background-color: gray;
   border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.shadow-2 {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.circle-2 {
+  width: 100px;
+  height: 100px;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.circle-2:hover {
+  transform: scale(0.5, 1.2);
+}
+
+.circle-3 {
+  width: 100px;
+  height: 100px;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.circle-3:hover {
+  transform: skew(20deg);
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.square:hover {
+  transform: rotate(45deg);
+}
+
+.square-2 {
+  width: 100px;
+  height: 100px;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  transform-origin: left top;
+}
+.square-2:hover {
+  transform: rotate(-40deg);
 }/*# sourceMappingURL=main.css.map */
