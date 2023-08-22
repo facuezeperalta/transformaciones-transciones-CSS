@@ -1,0 +1,29 @@
+/* variables: */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Lexend", sans-serif;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  border-radius: 50%;
+}
+.circle:hover {
+  transform: translateX(20px); /* si le saco la coordenada es valor por defecto es X */
+}
+
+.shadow {
+  width: 100px;
+  height: 100px;
+  background-color: lightslategray;
+  border-radius: 50%;
+}/*# sourceMappingURL=main.css.map */
