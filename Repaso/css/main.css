@@ -91,4 +91,154 @@ html {
 }
 .square-2:hover {
   transform: rotate(-40deg);
+}
+
+.container-1 {
+  position: relative;
+  perspective: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container-1 .item-1 {
+  width: 100px;
+  height: 100px;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  opacity: 0.5;
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: rotateY(30deg);
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  transform-style: preserve-3d;
+  position: relative;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .face {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+.card .front {
+  background: pink;
+}
+.card .back {
+  background: lightblue;
+  transform: rotateX(180deg);
+}
+
+.parallax-container {
+  width: 100%;
+  height: 100vh;
+  perspective: 8px;
+  perspective-origin: 50%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.imagepreset {
+  position: absolute;
+  /* centrar elementos */
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: 0 50%;
+}
+
+.image-background {
+  height: auto;
+  width: 100%;
+  transform: translateZ(0px) scale(1);
+  transform-origin: 0 50%;
+}
+
+.image-middle {
+  height: 100%;
+  width: 100%;
+  transform: translateZ(5px) scale(0.375);
+  transform-origin: 50%;
+}
+
+.image-foreground {
+  transform: translateZ(2px) scale(0.75);
+  transform-origin: top;
+}
+
+.card-placeholder {
+  border-radius: 5px;
+  background: whitesmoke;
+  background-image: url(../../images/pockercard.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 200px;
+  position: absolute;
+  transform: rotate(-20px);
+}
+
+.one {
+  left: 30%;
+  top: 20%;
+}
+
+.two {
+  left: 60%;
+  bottom: 20%;
+}
+
+.three {
+  left: 10%;
+  bottom: -50%;
+}
+
+.box-container {
+  width: 400px;
+  height: 100px;
+  margin-bottom: 30px;
+  background: lightblue;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.box-container:hover .box {
+  transform: scale(1.2);
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.box-1 {
+  background: lightpink;
+  transition: transform 500ms;
+}
+
+.box-2 {
+  background: lightcoral;
+  transition: transform 1s;
+}
+
+.box-3 {
+  background: lightseagreen;
+  transition: transform 1.5s;
 }/*# sourceMappingURL=main.css.map */
