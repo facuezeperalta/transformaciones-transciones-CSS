@@ -241,4 +241,62 @@ html {
 .box-3 {
   background: lightseagreen;
   transition: transform 1.5s;
+}
+
+.circle-smooth {
+  width: 100px;
+  height: 100px;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.circle-smooth:hover {
+  transform: translateX(20px);
+  transition: transform 0.5s;
+}
+
+.container-ttf:hover .timing-circle {
+  transform: translateX(500px);
+}
+
+.timing-circle {
+  width: 100px;
+  height: 100px;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.t1 {
+  transition: transform 0.5s linear;
+  transition-delay: 0.1s;
+}
+
+.t2 {
+  transition: transform 0.5s ease;
+  transition-delay: 0.1s;
+}
+
+.t3 {
+  transition: transform 0.5s ease-in;
+  transition-delay: 0.1s;
+}
+
+.t4 {
+  transition: transform 0.5s ease-out;
+  transition-delay: 0.1s;
+}
+
+.t5 {
+  transition: transform 0.5s ease-in-out;
+  transition-delay: 0.1s;
+}
+
+.t6 {
+  transition: transform 0.5s cubic-bezier(1, 0.03, 0.86, 0.27);
+  transition-delay: 0.1s;
 }/*# sourceMappingURL=main.css.map */
